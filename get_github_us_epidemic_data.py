@@ -191,7 +191,7 @@ def main():
         # trigger = IntervalTrigger(days=1)
         # scheduler.add_job(parse_data, trigger)
 
-        # scheduler.add_job(func=parse_data,trigger=CronTrigger(hour=8))
+        # scheduler.add_job(func=parse_data,trigger=CronTrigger(hour=8, minute=30))
 
         # # # 开启任务
         # scheduler.start()
